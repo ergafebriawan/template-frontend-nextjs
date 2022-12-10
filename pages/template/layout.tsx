@@ -8,9 +8,9 @@ export default function Layout(props){
         <Head>
             <title>{props.title}</title>
         </Head>
-        <Navbar/>
+        <Navbar page={props.title}/>
         <div>
-            {props.childern}
+            {props.children}
         </div>
         <Footer/>
         </>
